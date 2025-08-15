@@ -32,6 +32,10 @@ The Richard Feynman Biography Website presents an organized, multimedia-rich bio
 ## 🔗 Website Link
 https://kingsleymary.github.io/feynman
 
+---
+## Github Repo
+https://github.com/kingsleymary/feynman
+
 ## 🎨 Design System
 
 ### Colors
@@ -100,4 +104,5 @@ Activated via toggle switch (#switch):
 ```css
 body.dark {
   background-color: #b3b1b1;
+
 }
