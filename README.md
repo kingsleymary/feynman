@@ -30,7 +30,7 @@ The Richard Feynman Biography Website presents an organized, multimedia-rich bio
 
 ---
 ## 🔗 Website Link
-https://kingsleymary.github.io/feynman
+https://feynman-ceur.vercel.app/
 
 ---
 ## Github Repo
@@ -106,3 +106,4 @@ body.dark {
   background-color: #b3b1b1;
 
 }
+
