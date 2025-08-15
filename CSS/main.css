@@ -79,7 +79,7 @@ nav ul li a:hover {
     color: var(--accent-orange);
 }
 
-nav ul li a:visited {
+nav ul li a:after {
     color: rgb(216, 101, 0);
 }
 .switch {
@@ -1170,5 +1170,6 @@ input:checked + .slider:before {
 .sitemap-cols .sub { color: var(--muted); font-size: .95rem; line-height:1.5; }
 
 .sitemap-cols .sub a { color: inherit; text-decoration: none; }
+
 
 
