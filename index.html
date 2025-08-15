@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main.css">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    
+</head>
+
+<body>
+
+    <!-- carousel -->
+    <header class="carousel">
+        <div class="toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+
+        <!-- navigation element -->
+        <nav>
+
+            <img src="images/FEYNMAN.png" alt="">
+            <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#awards">Awards and Honours</a></li>
+                <li><a href="#works">Selected Works</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+            <div class="count" style="display: flex;">
+                <p style="font-size: 1.3rem; font-weight: bold;"><span id="visitor_count">1,269</span> <br>VISITORS</p>
+                <!-- Rounded switch -->
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round" id="switch"></span>
+                </label>
+            </div>
+        </nav>
+        <div class="list">
+            <div class="item">
+                <img src="images/Richard-Feynman.jpg" alt="">
+                <div class="content">
+                    <div class="author">Richard Feynman</div>
+                    <div class="topic">The Feynman Way</div>
+                    <div class="desc">Discover the unconventional journey to science and learning that made Richard
+                        Feynman a legend</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/Feynman_and_Oppenheimer_at_Los_Alamos.jpg" alt="">
+                <div class="content">
+                    <div class="author">Richard Feynman</div>
+                    <div class="topic">Mind At Play</div>
+                    <div class="desc">Explore the power of doubt and curiosity in science and life, inspired by Richard
+                        Feynman's legacy
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/A-bomb.jpg" alt="">
+                <div class="content">
+                    <div class="author">Richard Feynman</div>
+                    <div class="topic">Genius at Work</div>
+                    <div class="desc">Get to know the brilliant physicist who redefined our understanding of the world
+                        with his innovative approach</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="t-item">
+                <img src="images/Richard-Feynman.jpg" alt="">
+                <div class="t-content">
+                    <div class="t-title">
+                        Richard Feynman
+                    </div>
+                    <div class="des">
+                        The Feynman Way
+                    </div>
+                </div>
+            </div>
+
+            <div class="t-item">
+                <img src="images/Feynman_and_Oppenheimer_at_Los_Alamos.jpg" alt="">
+                <div class="t-content">
+                    <div class="t-title">
+                        Richard Feynman
+                    </div>
+                    <div class="des">
+                        Mind At Play
+                    </div>
+                </div>
+            </div>
+
+            <div class="t-item">
+                <img src="images/A-bomb.jpg" alt="">
+                <div class="t-content">
+                    <div class="t-title">
+                        Richard Feynman
+                    </div>
+                    <div class="des">
+                        Genius at Work
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button id="prev">
+                < </button>
+                    <button id="next">></button>
+        </div>
+        <div class="progress"></div>
+    </header>
+
+    <!-- Biography section  -->
+    <section id="biography" class="biography">
+        <div class="bio-img"><img src="images/Bio-img.jpg" alt=""></div>
+        <div class="bio-text">
+            <h1>Biography</h1>
+
+            <h4>Early Years and Farmily Roots</h4>
+
+            <p>Richard Phillips Feynmen was born on May 11, 1918, in Queens, New York, to Jewish immigrant parents. His
+                father, Melvillem, a uniform salesman with a passion for science,
+                encouraged young Richard's curiosity by taking him to museums and reading encyclopedias aloud. His
+                mother,
+                Lucilles, instilled a sense of humour and wit, shaping Feynman's playful yet inclusive Personality. As a
+                child, Feynman displyed a knack for problem-solving, fixing neighbors' radios and building home-made
+                gadgets laying the foundation for his scientific career.
+            </p>
+            <h4>Personal Life and Relationships</h4>
+
+            <p>Feynman's personal life was marked by love and loss. In 1941, he married his high-school sweetheart,
+                Arline Greenbaum, despite her diagnosis of tuberculosis. Their bond was deep,
+                with playful letters and shared dreams, but Arline's death in 1945, during Feynman's work on the
+                Mnhattan Project, left him devastated. He later married Gweneth Howarth in 1960 with whom h
+                had a son, Carl, and adopted a daughter.
+            </p>
+            <h4>Personality and Passions</h4>
+
+            <p>Known for his curiosity and disdain for authority, Feynman approached life with a childlike wonder and a
+                knack for simplifying complex ideas. His hobbies reflected his eclectic nature: he played bongo drums
+                with infectious enthusiasm, taught himself to crack safes for fun, and explored Brazilian samba during a
+                year in Rio de Janeiro. He also dabbled in art, creating sketches under the pseudonym "Oley. These
+                pursuits showcased his belief that creativity and science were intertwined.
+
+            </p>
+            <h4>Life Beyond the Lab</h4>
+
+            <p>Feynmants life was a blend of brillance and rebellion. He challenged conventional thinking, from
+                questioning academic pomp to exposing NASA flaws in the Challenger disaster investigation Despite his
+                achievements, he faced personal struggles, including grief over Artlinels death and a battle with cancer
+                in the 1980s. Feynman passed away on February 15, 1988, leaving a legacy as a scientist, teacher, and
+                storyteller who made the universe accessible to all </p>
+        </div>
+    </section>
+
+
+    <section id="education" class="education">
+        <h1>Education & Career</h1>
+        <div class="ed-stack">
+            <div class="e-div"><img src="images/MIT.jpg" alt="MIT">
+                <h3>1935-1939</h3>
+                <p>Entered MIT and earned a BSc in Physics, also named a Putnam Fellow in his senior year</p>
+            </div>
+            <div class="e-div"><img src="images/phd.jpg" alt="princeton">
+                <h3>1939-1942</h3>
+                <p>Pursued a PhD in Physics at Princeton University, and worked briefly as a research assistant.</p>
+            </div>
+            <div class="e-div"><img src="images/A-bomb.jpg" alt="A-bomb">
+                <h3>1943-1945</h3>
+                <p>Worked on the Manhattan Project at Los Alamos Laboratory; witnessed the first atomic bomb detonation
+                    in 1945</p>
+            </div>
+            <div class="e-div"><img src="images/A-bomb.jpg" alt="cornell-uni">
+                <h3>1945-1950</h3>
+                <p>Appointed Associate Professor of Theoretical Physics at Cornell University; Introduces feynman
+                    diagrams</p>
+            </div>
+            <div class="e-div"><img src="images/caltech.png" alt="caltech">
+                <h3>1950</h3>
+                <p>Joined Caltech as Professor of Theoretical Physics</p>
+            </div>
+            <div class="e-div"><img src="images/header-1.jpg" alt="Nobel-prize">
+                <h3>1965</h3>
+                <p>Awarded the Nobel Prize in Physics</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="career" class="career">
+        <h3>Career Graph & Struggle</h3>
+        <div class="c-graph">
+            <div class="graph"><img src="images/BarLineChart.png" alt=""></div>
+            <div class="c-text">
+                <h4>Public Legacy</h4>
+
+                <p>Feynman became a beloved teacher and writer. His three-volume The Feynman Lectures on Physics
+                    (1961-1964) remain foundational texts. Other popular works include QED: The Strange Theory of
+                    Light
+                    and
+                    Matter (1985), Surely You're Joking, Mr. Feynman! (1985), and What Do You Care What Other People
+                    Think?
+                    (1988).</p>
+
+                <h4>Death & Enduring Influence</h4>
+
+                <p> Richard Feynman passed away on February 15, 1988, in Los Angeles, California, at the age of 69.
+                    His
+                    legacy lives on through his scientific Innovations, teaching style, and indomitable curiosity
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research">
+        <h3>Research</h3>
+        <div class="r-flex">
+            <div class="r-items">
+                <p class="r-p">Richard Feynman’s Nobel Prize-winning research transformed physics through his contributions to quantum electrodynamics (QED), the theory explaining how light and matter interact at the quantum level. In the 1940s, while at Princeton and later Los Alamos, he developed innovative mathematical techniques to tackle the complexities of quantum calculations. His creation of Feynman diagrams—intuitive graphical representations of particle interactions—simplified QED, making it accessible to physicists worldwide. This work, recognized with the 1965 Nobel Prize in Physics (shared with Julian Schwinger and Sin-Itiro Tomonaga), underpins modern particle physics, influencing technologies like semiconductors and quantum computing. A key experiment involved verifying QED predictions through precise measurements of the electron’s magnetic moment, aligning theory with observation.
+                </p>
+                <div class="r-items-1">
+                    <img src="images/Feynman_diagram_general_properties.svg" alt="">
+                    <p>In $A + B \to C + D$, internal lines give propagator factors, external lines mark particles at vertices with 4-momentum conservation, and the amplitude is the product of all such factors with external line directions showing time flow.
+</p>
+                </div>
+            </div>
+            <div class="r-items">
+                <div class="r-items-2">
+                    <img src="images/Feynmann_Diagram_Gluon_Radiation.svg" alt="">
+                    <p>In this Feynman diagram, an electron (e−) and a positron (e+) annihilate, producing a photon (γ, represented by the blue sine wave) that becomes a quark–antiquark pair (quark q, antiquark q̄), after which the antiquark radiates a gluon (g, represented by the green helix).</p>
+                </div>
+                <div class="r-items-2">
+                    <img src="images/Kaon-Decay.svg" alt="">
+                    <p>In this diagram, a kaon, made of an up quark and strange antiquark, decays both weakly and strongly into three pions, with intermediate steps involving a W boson and a gluon, represented by the blue sine wave and green spiral, respectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards" class="awards">
+        <h1>Awards</h1>
+        <p class="a-p">Riochard Feynman's contributions to science and education earned him numerous prestigious
+            <br>awards,
+            reflecting
+            his brilliance and impact.
+        </p>
+        <div class="a-stack">
+            <div class="a-items">
+                <img src="images/header-1.jpg" alt="">
+                <h3>Nobel Prize in Physics(1965)</h3>
+                <p>Shared with Julian Schwinger and Shinichiro Tomonaga for their fundamental work in quantum
+                    electrodynamics(QED).
+
+                    <!-- Trigger button -->
+                    <button id="modal-trigger" class="more">See more>></button>
+                </p>
+            </div>
+            <!-- Modal container -->
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                        <h2>Nobel Prize in Physics(1965)</h2>
+                        <button id="modal-close">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <!-- Your content here -->
+                        <p class="modal-p">
+
+                            Key Contributions of the Laureates:
+
+                            - Sin-Itiro Tomonaga: A Japanese physicist who developed a theory of quantum electrodynamics
+                            that explained the behavior of particles like electrons and photons.
+                            - Julian Schwinger: An American physicist who worked on quantum electrodynamics and provided
+                            a theoretical framework for understanding particle interactions.
+                            - Richard P. Feynman: An American physicist known for his path-integral formulation of
+                            quantum mechanics, Feynman diagrams, and his work on quantum electrodynamics.
+
+                            Their work in quantum electrodynamics has had profound implications for particle physics,
+                            enabling precise calculations and predictions of physical quantities. This theory has been
+                            instrumental in shaping our understanding of the universe at the smallest scales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class=" a-items">
+                <img src="images/A.E award.jpg" alt="">
+                <h3>Albert Einstein Award (1954)</h3>
+                <p>Recognized his early contributions to physics, marking him as a rising star alongside
+                    Einstein's
+                    legacy.
+                    <button id="modal-trigger-2" class="more">See more>></button>
+                </p>
+            </div>
+
+            <!-- Modal container -->
+            <div id="modal-2" class="modal">
+                <div class="modal-content">
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                        <h2>Albert Einstein Award (1954)</h2>
+                        <button id="modal-close-2">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <!-- Your content here -->
+                        <p class="modal-p">The Albert Einstein Award is a prestigious recognition in theoretical
+                            physics, established to
+                            honor outstanding achievements in natural sciences. Richard Feynman received this award in
+                            1954 for his groundbreaking work, which included a gold medal and $5,000 prize money.
+                            Considered equivalent to a Nobel Prize, this award is highly exclusive, with only 13
+                            recipients since its inception in 1951. Notable winners include Kurt Gödel, Julian
+                            Schwinger, and Stephen Hawking.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="a-items">
+                <img src="images/NMS.jpg" alt="">
+                <h3>National Medal of Science (1979)</h3>
+                <p>Awarded by the U.S government for his broad influence on science and teaching, highlighting
+                    his
+                    Feynman Lectures.
+                    <button id="modal-trigger-3" class="more">See more>></button>
+                </p>
+            </div>
+            <!-- Modal container -->
+            <div id="modal-3" class="modal">
+                <div class="modal-content">
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                        <h2>National Medal of Science (1979)</h2>
+                        <button id="modal-close-3">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <!-- Your content here -->
+                        <p class="modal-p">Richard Feynman won the National Medal of Science specifically for his
+                            essential
+                            contributions to the quantum theory of radiation and his illumination of the behavior of
+                            constituents of the atom.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="a-items">
+                <img src="images/richard-p-feynmans-oersted-medal.jpg" alt="">
+                <h3>Oersted Medal (1972)</h3>
+                <p>
+                    Honored by the American Association Physics Teachers for his exceptional teaching, cementing
+                    his
+                    role as an educator
+                    <button id="modal-trigger-4" class="more">See more>></button>
+                </p>
+            </div>
+            <!-- Modal container -->
+            <div id="modal-4" class="modal">
+                <div class="modal-content">
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                        <h2>Oersted Medal (1972)</h2>
+                        <button id="modal-close-4">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <!-- Your content here -->
+                        <p class="modal-p">Richard Feynman won the Oersted Medal in 1972 for his outstanding
+                            contributions to physics
+                            education. This prestigious award, established in 1936, recognizes individuals who have made
+                            a lasting impact on teaching physics. As a legendary educator, Feynman was honored for his
+                            ability to clarify complex concepts and make physics accessible to a broader audience. His
+                            teaching methods, which included humor and engaging lectures, have inspired generations of
+                            physicists and educators ¹ ²..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <h1>Selected Works</h1>
+        <p class="w-p">Riochard Feynman's writings brought his scientific insights and personality to a global audience.
+            <br>Here are his works.
+        </p>
+        <div class="w-stack">
+            <div class="w-items">
+                <img src="images/Lectures.jpg" alt="">
+                <div class="w-text">
+                    <h3>The Feynman Lectures on Physics(1964)</h3>
+                    <p>Co-authored with Robert Leighton and Matthew Sands, this three-volume set from his Caltech
+                        lectures
+                        offers a foundational physics education, blending rigor with clarity.</p>
+                </div>
+            </div>
+            <div class="w-items">
+                <img src="images/joking.jpg" alt="">
+                <div class="w-text">
+                    <h3>Surely You're Joking, Mr. Feynman!(1985)</h3>
+                    <p>A memoir with Ralph Leighton, this bestseller reveals Feynman's adventures, from safecracking to
+                        samba, showcasing his wit and curiostity. </p>
+                </div>
+            </div>
+            <div class="w-items">
+                <img src="images/pleasure.jpg" alt="">
+                <div class="w-text">
+                    <h3>The Pleasure of Finding Things Out(1999)</h3>
+                    <p>A posthumous collection of essays and interviews, edited by Jeffrey Robbins, highlighting his
+                        thoughts on science, education, and life.</p>
+                </div>
+            </div>
+            <div class="w-items">
+                <img src="images/QED.jpg" alt="">
+                <div class="w-text">
+                    <h3>QED: The Strange Theory of Light and Matter(1972)</h3>
+                    <p>Based on his public lectures, this book explains quantum electrodynamics in an accessible way,
+                        reflecting his teaching genius.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h1>Gallery</h1>
+        <p class="g-p">Explore Richard Feynman's life through a collection of images capturing his personal moments,
+            <br>scientific
+            achievements, and public persona.
+        </p>
+        <div class="g-stack">
+            <div class="g-div-1">
+                <img class="big" src="images/relaxed.jpg" alt="">
+                <div class="small">
+                    <img src="images/header-2.jpg" alt="">
+                    <img src="images/header-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="g-div">
+                <div class="g-img">
+                    <img src="images/index.webp" alt="">
+                    <img src="images/Richard_Feynman_undated.png" alt="">
+                </div>
+                <div class="g-img">
+                    <img src="images/Feynman_and_Oppenheimer_at_Los_Alamos.jpg" alt="">
+                    <img src="images/standing.jpg" alt="">
+                </div>
+                <div class="g-img">
+                    <img src="images/Richard_Feynman_s_post-Nobel_lecture_at_CERN,_1965.jpg" alt="">
+                    <img src="images/board-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sitemap" class="sitemap">
+        <div class="sitemap-inner">
+            <div class="sitemap-cols">
+                <div><strong>Header</strong></div>
+                <div><strong>Biography</strong>
+                    <div class="sub"><span><a href="#education">Education &amp; Career</a></span><br /><span><a href="#career">Career Graph &amp; Struggle</span></a></div>
+                </div>
+                <div><strong>Research</strong></div>
+                <div><strong>Awards</strong></div>
+                <div><strong>Selected Works</strong></div>
+                <div><strong>Gallery</strong></div>
+                <div><strong>Sitemap</strong></div>
+                <div><strong>Footer</strong></div>
+                <div><strong>Scrolling Ticker</strong></div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <small>© 2025 Aptech eProject | A tribute to Richard Feynman's legacy</small>
+            
+
+
+            
+        </div>
+
+        <div class="feynman-big">FEYNMAN</div>
+        
+        
+<div style="text-align: center;"><br>
+
+<p><span style="font-weight: 900; color: #0c1620;">Current Date: </span><span style="font-size: large; font-family: 'Times New Roman', Times, serif;" id="date" style="font-size: large;"></span><span style="font-weight: 900; color: #0c1620;"> | Location: </span><span id="location" style="font-size: large; font-family: 'Times New Roman', Times, serif;"></span></p>
+
+
+</div>
+
+<div style="text-align: center;"><br>
+
+<p>IP Address: <span id="ip_address"> </span></p>
+
+</div>
+        
+        
+    </footer>
+    
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
