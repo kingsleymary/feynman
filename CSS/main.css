@@ -574,7 +574,7 @@ input:checked + .slider:before {
 
 .a-items {
     width: 23rem;
-    height: 32rem;
+    height: auto;
     padding: .5rem;
     border-radius: 2rem;
 }
@@ -1173,6 +1173,7 @@ input:checked + .slider:before {
 .sitemap-cols .sub { color: var(--muted); font-size: .95rem; line-height:1.5; }
 
 .sitemap-cols .sub a { color: inherit; text-decoration: none; }
+
 
 
 
