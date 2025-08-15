@@ -194,4 +194,22 @@ window.addEventListener('click', (e) => {
   if (e.target === modalFour) {
     modalFour.style.display = 'none';
   }
+
 });
+
+  // Apply saved visited links on load
+  const visitedSet = new Set(JSON.parse(localStorage.getItem('visitedLinks') || '[]'));
+  document.querySelectorAll('nav a').forEach(a => {
+    if (visitedSet.has(a.href)) a.classList.add('visited');
+
+    a.addEventListener('click', (e) => {
+      // If you want to treat a click as "visited" even for SPA links:
+      a.classList.add('visited');
+      visitedSet.add(a.href);
+      localStorage.setItem('visitedLinks', JSON.stringify([...visitedSet]));
+
+      // If you navigate in-page via JS, optionally set an "active" class:
+      document.querySelectorAll('nav a').forEach(x => x.classList.remove('active'));
+      a.classList.add('active');
+    });
+  });
