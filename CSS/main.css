@@ -79,6 +79,7 @@ nav ul li a:hover {
     color: var(--accent-orange);
 }
 
+/* CSS */
 nav ul li a.visited,
 nav ul li a.active {            /* .active for current page highlight */
   color: var(--accent-orange);
@@ -425,13 +426,15 @@ input:checked + .slider:before {
 
 .e-div {
     width: 20rem;
-    height: 30rem;
-    padding: .5rem;
+    height: auto;
+    min-height: auto;
+
+    padding: 30px 10px 30px 10px;
     border-radius: 2rem;
 }
 
 .e-div:hover {
-    box-shadow: 10px 10px 20px rgba(0,0,.2);
+    box-shadow: 2px 2px 30px rgba(0,0,.2);
     transform: translateY(-.5rem);
 }
 
@@ -575,12 +578,13 @@ input:checked + .slider:before {
 .a-items {
     width: 23rem;
     height: auto;
-    padding: .5rem;
+    min-height: auto;
+    padding: 30px 10px 30px 10px;
     border-radius: 2rem;
 }
 
 .a-items:hover {
-    box-shadow: 10px 10px 20px rgba(0,0,.2);
+    box-shadow: 2px 2px 30px rgba(0,0,.2);
     transform: translateY(-.5rem);
 }
 
@@ -603,6 +607,7 @@ input:checked + .slider:before {
 }
 
 .more {
+  margin-top: 5px;
     border: none;
     font-size: 1.3rem;
     font-weight: bold;
@@ -698,7 +703,7 @@ input:checked + .slider:before {
 }
 
 .w-items:hover {
-    box-shadow: 10px 10px 20px rgba(0,0,.2);
+    box-shadow: 2px 2px 30px rgba(0,0,.2);
 }
 
 .w-items img {
@@ -777,7 +782,7 @@ input:checked + .slider:before {
 }
 
 .g-stack img:hover {
-    box-shadow: 10px 10px 20px rgba(0,0,.2);
+    box-shadow: 2px 2px 30px rgba(0,0,.2);
     transform: translateY(-.1rem);
 } 
 .sitemap {
@@ -1169,13 +1174,5 @@ input:checked + .slider:before {
   .site-footer { padding: 1.1rem 1rem 2rem; }
   .feynman-big { font-size: 72px; letter-spacing: -4px; }
 }
-
-.sitemap-cols .sub { color: var(--muted); font-size: .95rem; line-height:1.5; }
-
-.sitemap-cols .sub a { color: inherit; text-decoration: none; }
-
-
-
-
 
 
